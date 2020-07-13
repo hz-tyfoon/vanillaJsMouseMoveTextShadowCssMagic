@@ -16,9 +16,11 @@ function handleMouseMove(e){
     
     h1.style.textShadow = `
         ${leftPx}px ${topPx}px 0 rgba(13, 100, 60, 1),
-        ${-1 * leftPx}px ${-1 * topPx}px 0 rgba(16, 37, 216, 1),
-        ${-1 * leftPx}px ${topPx}px 0 rgba(13, 190, 177, 1),
-        ${leftPx}px ${-1 * topPx}px 0 rgba(211, 19, 11, 1)
+        ${topPx}px ${leftPx}px 0 rgba(16, 37, 216, 1),
+        ${-1 * topPx}px ${leftPx}px 0 rgba(13, 190, 177, 1),
+        ${leftPx}px ${-1 * topPx}px 0 rgba(160, 137, 216, 1),
+        ${-1 * leftPx}px ${topPx}px 0 rgba(130, 10, 17, 1),
+        ${topPx}px ${-1 * leftPx}px 0 rgba(211, 19, 11, 1)
     `;
 }
 
